@@ -11,7 +11,8 @@ h1 {
 
 h2 {
   margin: 0;
-  .bold {
-    font-weight: bold;
-  }
+}
+
+.bold {
+  font-weight: bold;
 }
