@@ -5,18 +5,20 @@ body {
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 80px;
   letter-spacing: 5px;
 }
 
 h2 {
   margin: 0;
-  p {
-    font-size: 30px;
-    letter-spacing: 5px;
-  }
+}
+
+h2 span {
+  font-size: 40px;
+  letter-spacing: 5px;
 }
 
 span {
   font-weight: bold;
 }
+
