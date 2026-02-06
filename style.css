@@ -11,11 +11,10 @@ h1 {
 
 h2 {
   margin: 0;
-}
-
-p {
-  font-size: 50px;
-  letter-spacing: 5px;
+  p {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
 }
 
 span {
