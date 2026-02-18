@@ -1,21 +1,49 @@
+header {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header img{
+  height: 30px;
+}
+
 body {
-  color: #333333;
   text-align: center;
   margin: 0;
+  background-image: url(27131331.jpg);
+}
+
+#ヤングケアラー {
+  background-color: white;
+  border: 3px solid #333;
+  border-radius: 20px;
+  padding: 30px;
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
   letter-spacing: 5px;
 }
 
 h2 {
-  margin: 0;
+  margin: 30px;
 }
 
-h2 span {
-  font-size: 40px;
-  letter-spacing: 5px;
+p {
+  font-size: 30px;
+  letter-spacing: 3px;
 }
 
 span {
