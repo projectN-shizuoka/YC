@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: #333333;
   display: flex;
@@ -13,6 +18,15 @@ body {
   text-align: center;
   margin: 0;
   background-image: url(27131331.jpg);
+  background-size: cover;
+}
+
+.title {
+  background-image: url(PC.png);
+  background-size: cover;
+  padding: 350px 0;
+  font-size: 38px;
+  letter-spacing: 5px;
 }
 
 #ヤングケアラー {
@@ -32,9 +46,10 @@ body {
   align-items: center;
 }
 
-h1 {
-  font-size: 70px;
-  letter-spacing: 5px;
+.tag {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 h2 {
