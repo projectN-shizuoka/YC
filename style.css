@@ -65,3 +65,11 @@ span {
   font-weight: bold;
 }
 
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
