@@ -15,3 +15,7 @@ body {
   background-image: url(27131331.jpg);
   background-size: cover;
 }
+
+span {
+  font-weight: bold;
+}
