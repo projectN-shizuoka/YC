@@ -34,9 +34,12 @@ body {
   border: 3px solid #333;
   border-radius: 20px;
   padding: 30px;
-  width: 80%;
   max-width: 700px;
   margin: 40px auto;
+}
+
+.人数 {
+  font-size: 20px;
 }
 
 .image {
@@ -46,8 +49,15 @@ body {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .image {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 .tag {
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   justify-content: flex-end;
 }
