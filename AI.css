@@ -40,12 +40,6 @@ span {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
-  .content {
-
-  }
-}
-
 footer{
   background-color: #267CA7;
   color: #FFFFFF;
