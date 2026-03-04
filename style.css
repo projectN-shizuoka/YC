@@ -3,47 +3,35 @@
   padding: 0;
 }
 
-@media (max-width: 768px) {
-  header {
-    background-color: #267CA7;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
+header {
+  background-color: #267CA7;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-@media (max-width: 768px){
-  header ul {
-    margin: 0;
-    display: flex;
-    list-style: none;
-  }
+header ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
 }
 
-@media (max-width: 768px){
-  header ul li {
-    padding: 0 20px;
-  }
+header ul li {
+  padding: 0 20px;
 }
 
-@media (max-width: 768px) {
-    header ul li a {
-    color: #FFFFFF;
-    font-size: 20px;
-    text-decoration: none;
-  }
+header ul li a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    header ul li a:hover {
-    color: #7BC3D1;
-  }
+header ul li a:hover {
+  color: #7BC3D1
 }
 
-@media (max-width: 768px) {
-  header img{
-    height: 30px;
-  }
+header img{
+  height: 30px;
 }
 
 body {
