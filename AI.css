@@ -40,6 +40,24 @@ span {
   font-weight: bold;
 }
 
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #82B7CC;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #4f8cad;
+}
+
+.back {
+  padding: 30px;
+}
+
 footer{
   background-color: #267CA7;
   color: #FFFFFF;
